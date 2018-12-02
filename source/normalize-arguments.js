@@ -18,7 +18,7 @@ const preNormalize = (options, defaults) => {
 	if (is.nullOrUndefined(options.headers)) {
 		options.headers = {};
 	} else {
-		options.headers = lowercaseKeys(options.headers);
+		// options.headers = lowercaseKeys(options.headers);
 	}
 
 	if (options.baseUrl && !options.baseUrl.toString().endsWith('/')) {
